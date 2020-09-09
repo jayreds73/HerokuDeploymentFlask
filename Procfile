@@ -1,1 +1,1 @@
-web: gunicorn flaskapi-flasgger:app
+web: gunicorn flaskapiflasgger:app
