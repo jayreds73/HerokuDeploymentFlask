@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run StreamLitLibrary.py
+web: sh setup.sh && python FlaskAPI-Flasgger.py
