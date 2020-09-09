@@ -1,1 +1,1 @@
-web: sh setup.sh && python FlaskAPI-Flasgger.py
+web: gunicorn FlaskAPI-Flasgger:app
