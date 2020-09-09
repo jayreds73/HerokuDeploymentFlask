@@ -7,7 +7,7 @@ from flasgger import Swagger
 app = Flask(__name__)
 # indication to flask to generate UI
 # Run this - http://localhost:5000/apidocs/ in browser to open swagger app
-#Swagger(app)
+Swagger(app)
 
 # load the model at the start of the app
 pickle_in = open('model.pkl','rb')
