@@ -54,14 +54,14 @@ def main():
         prediction = iris_predict(sl,sw,pl,pw)
     st.success(prediction)
 
-    prediction_t = ""
-    if st.button("Test"):
-        prediction_t = 'Pass'
-    st.success(prediction_t)
+#   prediction_t = ""
+#   if st.button("Test"):
+#      prediction_t = 'Pass'
+#    st.success(prediction_t)
 
-    if st.button("About"):
-        st.text("Lets LEarn")
-        st.text("Built with Streamlit")
+#    if st.button("About"):
+#        st.text("Lets LEarn")
+#        st.text("Built with Streamlit")
 
 if(__name__=='__main__'):
     main()
